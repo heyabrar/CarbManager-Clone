@@ -1,0 +1,317 @@
+.NavOutterDiv{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+
+.logoDiv{
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.NavInnerDiv{
+    /* border: 1px solid black; */
+    width: 40%;
+    justify-content: space-around;
+    display: flex;
+    font-weight: 600;
+}
+
+.LogInDiv{
+    /* border: 1px dashed blue; */
+    display:flex ;
+    align-items: center ;
+    gap: 30px;
+    font-weight: 600;
+}
+
+.SignUpButton{
+    background-color: #2dd29a;  
+    padding: 15px;
+    border-radius: 25px;
+    color: white;
+    font-weight: 500;
+}
+
+.Features-Banner-Outter-Div{
+    /* border: 2px solid black; */
+    display: flex;
+    background-color: #2dd29a;
+    border-bottom-left-radius: 300px;
+}
+
+.Keto-Headline-Div{
+    /* border: 1px solid red; */
+    width: 40%;
+    margin-left: 15%;
+    margin-top: 15%;
+    color: white;
+}
+
+.H1-Headline{
+    font-size: 65px;
+    font-weight: 800;
+    line-height:  65px;
+}
+
+.The1{
+        font-size: 28px;
+        font-weight: 600;
+        margin-top: 10px;
+}
+
+.ForHealthy{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 580;
+}
+
+.Input-Email{
+    border: 0px solid black;
+    width: 40%;
+    height: 40px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 20px;
+    border-right: none;
+    margin-top: 15px;
+    color: black;
+    outline: 0px;
+}
+
+.CreateAccountButton{
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: -10px;
+    width: 200px;
+    background-color: #f94642;
+    color: white;
+    font-weight: 500;
+}
+
+.CreateAccountButton:hover{
+    background-color: red;
+}
+
+.MobileDiv{
+    /* border: 1px solid blue; */
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.MobileScreenBanner{
+    width: 300px;
+}
+
+.GoogleAppleStore{
+    /* border: 1px solid black; */
+    display: flex;
+    margin-top: 5%;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.GoogleAppleStore>img{
+    width: 130px;
+}
+
+.SponsorsDiv{
+    /* border: 1px solid black; */
+    width: 90%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.SponsorsImg{
+    margin: auto;
+}
+
+.GetToKnowDiv{
+    /* border: 1px solid red; */
+    width: 40%;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+.GetToKnowDiv>h1{
+    font-size: 35px;
+    font-weight: 700;
+    line-height:  65px;
+}
+
+.GetToKnowDiv>p{
+    font-size: 25px;
+}
+
+.KetoOutterDiv{
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 80%;
+    margin: auto;
+    /* gap: 50px; */
+    margin-top: 5%;
+}
+
+.KetoOutterDiv>div{
+    /* border: 3px solid black; */
+    width: 80%;
+    margin: auto;
+}
+
+.KFE-H1,.KFL-H1, .KFU-H1,.KFB-H1{
+    font-size: 40px;
+}
+
+.KFE-Content, .KFU-Content, .KFL-Content,.KFB-Content{
+    /* border: 1px solid black; */
+    width: 95%;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.KFU-List,.KFE-List,.KFL-List,.KFB-List{
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 50px;
+    line-height: 35px;
+    margin-top: 10px;
+}
+
+.KetoForEveryoneImage{
+    width: 550px;
+    border-bottom-right-radius: 120px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.KetoForYouImage{
+    width: 550px;
+    border-top-left-radius: 120px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.KetoForLifeImage{
+    width: 550px;
+    border-top-right-radius: 120px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.KetoForBeyond{
+    width: 550px;
+    border-bottom-left-radius: 120px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.GetToKnowHeadLineDiv{
+    /* border: 1px solid black; */
+    width: 40%;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.GetToKnowHeadLineDiv>h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.GetToKnowHeadLineDiv>p{
+    font-size: 22px;
+}
+
+.threebytwo{
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;row-gap: 50px;
+}
+
+.threebytwo>div{
+    height: 300px;
+    width: 80%;
+    margin: auto;
+}
+.MealsMobileScreen{
+    height: 650px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 50px;
+}
+
+.SimplifyGoofyImg{
+    height: 40px;
+    border-radius: 50%;
+}
+
+.TrackEveryBite{
+    height: 80px;
+}
+
+.threebytwoContentHeading{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.threebytwoContent{
+    width: 80%;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.CarbManagerByNumbersDiv{
+    /* border: 1px solid black; */
+    width: 40%;
+    margin: auto;
+    margin-top: 7%;
+    text-align: center;
+}
+
+.CarbManagerByNumbersDiv>h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.CarbManagerByNumbersDiv>p{
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: auto;
+}
+
+.CrabManagerByNumberSimpleGrid{
+    /* border: 1px solid black; */
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.Followers{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.FollowersContent{
+    width: 80%;
+    /* border: 1px solid red; */
+    margin: auto;
+}
