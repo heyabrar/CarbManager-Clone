@@ -22,7 +22,6 @@ export default function KetoForBeyond( ){
             </List> 
            </div>
         </div>
-
         <div>
             <img className="KetoForBeyond" src="https://images.prismic.io/cm-website/21877cf5-6425-41cf-b50d-41a16715d23b_article-4%402x.png?auto=compress%2Cformat&w=0.5&auto=format&fit=max" alt="KetoBeyond" />
         </div>
