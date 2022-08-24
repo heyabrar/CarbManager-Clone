@@ -10,7 +10,6 @@ export default function Navbar( ){
             <div className="NavInnerDiv">
             <Link to='/'>Features</Link>
             <Link to='/premium'>Premium</Link>
-            <Link to='/articles'>Articles</Link>
             <Link to='/cookbook'>Cookbook</Link>
             <Link to='/support'>Support</Link>
             </div>

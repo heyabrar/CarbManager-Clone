@@ -315,3 +315,220 @@
     /* border: 1px solid red; */
     margin: auto;
 }
+
+.FooterlogoDiv{
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 20px;
+    width: 20%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    gap: 15px;
+}
+
+.FooterSimpleGrid1{
+    /* border: 1px solid black; */
+    width: 70%;
+    margin: auto;
+    margin-top: 3%;
+    text-align: center;
+    font-weight: 700;
+}
+
+.FooterSimpleGrid2{
+    /* border: 1px solid red; */
+    width: 55%;
+    margin: auto;
+    text-align: center;
+    margin-top: 1%;
+    font-weight: 600;
+    color: grey;
+}
+
+.FooterSimpleGrid3{
+    /* border: 1px solid black; */
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    margin-top: 1%;
+    font-size: 25px;
+    color: grey;
+}
+
+.YouTube:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.PintRest:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.Instagram:hover{
+    color: rgb(228, 114, 95);
+    cursor: pointer;
+}
+
+.FaceBook:hover{
+    color: rgb(82, 165, 238);
+    cursor: pointer;
+}
+
+.FooterStack1{
+    /* border: 1px solid red; */
+    text-align: center;
+    font-size: 14px;
+    margin-top: 2%;
+}
+
+.FooterStack{
+    /* border: 1px solid black; */
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.ScrollTopButton{
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #2dd29a;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 90%;
+    font-size: 25px;
+}
+.dummy{
+    /* border: 2px solid black; */
+    height: 100px;
+}
+
+.PremuimBannerDiv{
+    /* border: 1px solid red; */
+    display: flex;
+    width: 85%;
+    margin: auto;
+}
+
+.ThePowerOFPremium{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.PremuimBannerDiv>div{
+    /* border: 1px solid greenyellow; */
+    margin: auto;
+}
+
+.PremiumBannerContent>h1{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-top: 10px;
+}
+
+.PremiumBannerContent>p{
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.GetPremiumNowButton{
+    display: flex;  
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    margin-top: 20px;
+    background-color: #2dd29a;
+    color: white;
+    font-weight: 550;
+}
+
+.WithPremiumYouCanHeadline,.PremiumFeaturesHeader{
+    /* border: 1px solid black; */
+    font-size: 40px;
+    font-weight: 700;
+    width: 38%;
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.PremiumSimpleGrid{
+    /* border: 1px solid red; */
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.PremiumStack{
+    /* border: 1px solid red; */
+    margin-top: 40px;
+}
+
+.WPYC-Header{
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.WPYC-Content{
+    /* border: 1px solid black; */
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.LinkToOtherCompo{
+    border: 1px solid red;
+    justify-content: space-around;
+    display: flex;
+}
+.Tabs{
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.TabList{
+    gap: 100px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.MadeSimpleImage{
+    width: 250px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 20px;
+}
+
+.MadeSimpleStack{
+    margin: auto;
+}
+
+.MadeH1{
+    font-size: 40px;
+}
+
+.MadeContent{
+    margin-top: 10px;
+}
+
+.MadeList{
+    line-height: 30px;
+    margin-top: 10px;
+}
