@@ -453,6 +453,7 @@
     background-color: #2dd29a;
     color: white;
     font-weight: 550;
+    
 }
 
 .WithPremiumYouCanHeadline,.PremiumFeaturesHeader{
@@ -531,4 +532,266 @@
 .MadeList{
     line-height: 30px;
     margin-top: 10px;
+}
+
+.CookBookDummy{
+    /* border: 2px solid black; */
+    height: 80px;
+}
+
+.CookBookBannerDiv{
+    /* border: 5px solid red; */
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+    display: flex;
+}
+
+.CookBookBannerDiv>div{
+    /* border: 2px solid green; */
+    width: 80%;
+    margin: auto;
+}
+
+.CookBookHeadLine{
+    font-size: 30px;
+}
+
+.CookBookH1{
+    font-size: 60px;
+    margin-top: -20px;
+    margin-left: 40px;
+}
+
+.EasiestWayToLooseWait{
+    font-size: 22px;
+    line-height: 25px;
+    margin-left: 40px;
+}
+
+.TheOfficaialCompanion{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.CookBookButtonsBox{
+    margin-left: 40px;
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.CookBookButtonsBox>button{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; 
+}
+
+.TheUltimateKeto{
+    /* border: 1px solid black; */
+    width: 45%;
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.TheUltimateKeto>h1{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.TheUltimateKeto>p{
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.KetoMadeEasySimpleGrid, .YouWontMissSimpleGrid, .RecipesForFamilySimpleGrid, .WhoKnewSimpleGrid{
+    /* border: 1px solid black; */
+    width: 70%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.KetoMadeEasyBox, .YouWontMissBox, .RecipesForFamilyBox, .WhoKnewBox{
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+}
+
+.KatoMadeEasyH1, .YouWontMissH1, .RecipesForFamilyH1, .WhoKnewH1{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 45px;
+}
+
+.KatoMadeEasyPTag, .YouWontMissPTag, .RecipesForFamilyPTag, .WhoKnewPTag{
+    margin-top: 10px;
+}
+
+.KetoMadeEasyImage{
+    border-top-left-radius: 120px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.YouWontMissImage {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 120px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.RecipesForFamilyImage{
+    border-top-right-radius: 120px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.WhoKnewImage{
+    border-bottom-left-radius: 120px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.KetoDietSimpleGrid{
+    /* border: 1px solid black; */
+    width: 80%;
+    margin: auto;
+    margin-top: 7%;
+}
+
+.KetoDietBox{
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.KetoDietImage{
+    margin: auto;
+}
+
+.KetoDietBox>h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.KetoDietBox>p{
+    margin-top: 10px;
+}
+
+.AmazonButtonImageKeto{
+    width: 150px;
+}
+
+.ButtonsBox{
+    /* border: 1px solid black; */
+    width: 70%;
+    justify-content: space-between;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.ButtonsBox>button{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; 
+}
+
+.RecipesOutterSimpleGrid{
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.RecipesOutterBox{
+    /* border: 2px solid blue; */
+    margin: auto;
+    margin-top: 5%;
+}
+
+.RecipesInnerSimpleGrid{
+    /* border: 5px solid greenyellow; */
+    width: 90%;
+    margin: auto;
+}
+
+.RecipesInnerBox{
+    /* border: 2px solid brown; */
+    margin: auto;
+}
+
+.RecipesInnerBox>h1{
+    font-weight: 600;
+    font-size: 18px;
+}
+.RecipesInnerBox>p{
+    font-size: 13px;
+}
+
+.RecipesLeftImage{
+    width: 180px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.RecipesRightImage{
+    width: 180px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.GetBonusSimpleGrid{
+    /* border: 1px solid black; */
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.GetBonusBox{
+    /* border: 1px solid green; */
+    width: 90%;
+    margin: auto;
+}
+
+.GetBonusBox>button{
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; 
+}
+
+.GetBonusListContent{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.CQAccordion{
+    /* border: 1px solid black; */
+    width: 60%;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.CQBox{
+    /* border: 1px solid red; */
+    height: 50px;
+    align-items: center;
+    display: flex;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.QuestionsDiv{
+    /* border: 1px solid red; */
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.QuestionsDiv>h1{
+    font-size: 40px;
 }
