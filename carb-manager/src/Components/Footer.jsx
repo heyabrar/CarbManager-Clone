@@ -10,7 +10,8 @@ export default function Footer( ){
             <Image boxSize={'50px'} src="https://play-lh.googleusercontent.com/LI_Y6I6uMS_DrhO7tHDTH-_YaYLJLM3rS9yReRuGzbk8VfoZvkOlZh7zZfCCOakJGDs"/> <p>Carb Manager ®️</p>
         </div>
 
-        <SimpleGrid columns={[1,2,9]} className='FooterSimpleGrid1'>
+        <SimpleGrid columns={[2,2,1]} className='OutterFooter'>
+        <SimpleGrid columns={[1,1,9]} className='FooterSimpleGrid1'>
             <Text>Features</Text>
             <Text>Premium</Text>
             <Text>Keto  Recipe</Text>
@@ -22,7 +23,7 @@ export default function Footer( ){
             <Text>Join For Free</Text>
         </SimpleGrid>
 
-        <SimpleGrid columns={[1,2,7]} className='FooterSimpleGrid2'>
+        <SimpleGrid columns={[1,1,7]} className='FooterSimpleGrid2'>
             <Text>Gift Cards</Text>
             <Text>Suppot Center</Text>
             <Text>Forums</Text>
@@ -31,8 +32,9 @@ export default function Footer( ){
             <Text>Contact</Text>
             <Text>System Status</Text>
         </SimpleGrid>
+        </SimpleGrid>
 
-        <SimpleGrid columns={[4,2,4]} className='FooterSimpleGrid3'>
+        <SimpleGrid columns={[4,4,4]} className='FooterSimpleGrid3'>
             <List className="FaceBook"><ListIcon as={FaFacebookF}/></List>
             <List className="Instagram"><ListIcon as={BsInstagram}/></List>
             <List className="PintRest"><ListIcon as={BsPinterest}/></List>

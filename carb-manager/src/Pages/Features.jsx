@@ -1,4 +1,4 @@
-import { Image } from "@chakra-ui/react";
+import { Image, SimpleGrid } from "@chakra-ui/react";
 import CarbManagerByNumbers from "../Components/CarbManagerByNumber";
 import GetToKnowCarb from "../Components/GetToKnowCarb";
 import KetoForBeyond from "../Components/KetoForBeyond";
@@ -10,12 +10,12 @@ import Sponsors from "../Components/SponsorsImages";
 export default function Featuress( ){
     return (
         <>
-        <div className="Features-Banner-Outter-Div">
+        <SimpleGrid columns={[1,1,2]} className="Features-Banner-Outter-Div">
             <div className="Keto-Headline-Div">
                 <h1 className="H1-Headline">Keto & Low-Carb Made Easy</h1> 
                 <p className="The1">The #1 Low-Carb and Keto Diet App</p> 
                 <p className="ForHealthy">For healthy & sustainable low-carb living</p>
-               <div>
+               <div className="InputDiv">
                <input type="text" placeholder="Enter Email Address" className="Input-Email"/>
                <button className="CreateAccountButton">Create Free Account</button>
                </div>
@@ -27,7 +27,7 @@ export default function Featuress( ){
             <div className="MobileDiv">
                 <Image className="MobileScreenBanner" src="https://www.carbmanager.com/_nuxt/img/9bfac4e.png"/>
             </div>
-        </div>
+        </SimpleGrid>
         <Sponsors/>
         <div className="GetToKnowDiv">
             <h1>Get to Know Keto & Low-Carb </h1>
