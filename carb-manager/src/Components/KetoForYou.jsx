@@ -1,4 +1,4 @@
-import { List, ListIcon, ListItem } from "@chakra-ui/react";
+import { List, ListIcon, ListItem,SimpleGrid } from "@chakra-ui/react";
 import {MdCheckCircleOutline } from "react-icons/md";  
 
 export default function KetoForYou( ){
@@ -12,7 +12,7 @@ export default function KetoForYou( ){
         <div>
             <h1 className="KFU-H1">Keto for <b>you<b style={{color : '#2dd29a'}}>.</b></b></h1>
             <p  className="KFU-Content">Personalize your low-carb journey and meet all your important health goals. We’re more than just a Keto calorie counter. Carb Manager integrates seamlessly with FitBit, Garmin, and hundreds of other apps and devices via Apple Health and Google Fit, helping you to:</p>
-           <div className="KFU-List">
+           <SimpleGrid columns={[1,1,2]} className="KFU-List">
            <List spacing={3}>
                 <ListItem><ListIcon as={MdCheckCircleOutline} color='green.500' fontSize={'18px'} />Lose weight quickly</ListItem>
                 <ListItem><ListIcon as={MdCheckCircleOutline} color='green.500' fontSize={'18px'} />Optimize energy</ListItem>
@@ -24,7 +24,7 @@ export default function KetoForYou( ){
                 <ListItem><ListIcon as={MdCheckCircleOutline} color='green.500' fontSize={'18px'} />Gain mental clarity</ListItem>
                 <ListItem><ListIcon as={MdCheckCircleOutline} color='green.500' fontSize={'18px'} />Manage cravings</ListItem>
             </List> 
-           </div>
+           </SimpleGrid>
         </div>
        </div>
        </>
