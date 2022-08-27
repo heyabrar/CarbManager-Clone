@@ -14,7 +14,8 @@ export default function CookBook ( ){
         <>
         <div className="CookBookDummy"></div>
         <div className="CookBookBannerDiv">
-            <div className="CookBookBannerContent">
+            <SimpleGrid columns={[1,1,2]} className="CookBookBannerContent">
+               <Box>
                 <List>
                     <ListItem className="CookBookHeadLine"><ListIcon as={GiOakLeaf} color='#2dd29a' fontSize={'35px'}/>Carb Manager's</ListItem>
                 </List>
@@ -31,11 +32,14 @@ export default function CookBook ( ){
                     <Image boxSize={'100px'} src='https://www.carbmanager.com/_nuxt/img/08305ea.svg'/>
                     <Image boxSize={'100px'} src='https://www.carbmanager.com/_nuxt/img/b069d82.svg'/>
                 </SimpleGrid>
+                </Box> 
+                
+              <Box>
+            <div className="DietBookDiv">
+                <img className="DietBook" src="https://images.prismic.io/cm-website/099ea90a-e325-4f61-bea5-f726a803d0d8_cookbook-1.jpg?auto=compress%2Cformat&w=0.5&auto=format&fit=max" alt="" />
             </div>
-
-            <div>
-                <img src="https://images.prismic.io/cm-website/099ea90a-e325-4f61-bea5-f726a803d0d8_cookbook-1.jpg?auto=compress%2Cformat&w=0.5&auto=format&fit=max" alt="" />
-            </div>
+            </Box>
+            </SimpleGrid>
         </div>
         <KetoMadeEasy/>
         <YouWontMissCarb/>

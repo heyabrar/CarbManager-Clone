@@ -5,7 +5,7 @@ export default function WhoKnewImproving ( ){
         <>
        <SimpleGrid columns={[1,1,2]} className='WhoKnewSimpleGrid'>
         <Box className="WhoKnewBox">
-            <h1 className="WhoKnewH1">Who Knew Improving Your Health Could be so<b>Delicious</b><b style={{color: '#2dd29a'}}>?</b></h1>
+            <h1 className="WhoKnewH1">Who Knew Improving Your Health Could be so <b>Delicious</b><b style={{color: '#2dd29a'}}>?</b></h1>
             <p className="WhoKnewPTag">Keto is more than a diet. It’s a lifestyle. And it’s here to stay. The Carb Manager Keto Cookbook is the easy and delicious way to join the Keto revolution and experience the power of Keto for yourself.</p>
         </Box>
 

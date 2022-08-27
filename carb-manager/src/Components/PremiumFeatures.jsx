@@ -15,11 +15,11 @@ export default function PremiumFeatures( ){
         <div>
         <Tabs className="Tabs">
             <TabList className="TabList">
-                <Tab _selected={{ color: '#2dd29a', fontWeight : '650' }}> Made Simple </Tab>
-                <Tab _selected={{ color: '#2dd29a',fontWeight : '650' }}>Made Convinient</Tab>
-                <Tab _selected={{ color: '#2dd29a', fontWeight : '650' }}>Made Fast</Tab>
-                <Tab _selected={{ color: '#2dd29a',fontWeight : '650' }}>Made Delicious</Tab>
-                <Tab _selected={{ color: '#2dd29a',fontWeight : '650' }}>Made Smart</Tab>
+                <Tab _selected={{ color: '#2dd29a', fontWeight : '650' }} className='Tab' > Made Simple </Tab>
+                <Tab _selected={{ color: '#2dd29a',fontWeight : '650' }} className='Tab'>Made Convinient</Tab>
+                <Tab _selected={{ color: '#2dd29a', fontWeight : '650' }} className='Tab'>Made Fast</Tab>
+                <Tab _selected={{ color: '#2dd29a',fontWeight : '650' }} className='Tab'>Made Delicious</Tab>
+                <Tab _selected={{ color: '#2dd29a',fontWeight : '650' }} className='Tab'>Made Smart</Tab>
             </TabList>
 
             <TabPanels className="TabPanels">
@@ -27,19 +27,19 @@ export default function PremiumFeatures( ){
                     <MadeSimple/>
                 </TabPanel>
 
-                <TabPanel>
+                <TabPanel className="TabPanel">
                     <MadeConvinent/>
                 </TabPanel>
 
-                <TabPanel>
+                <TabPanel className="TabPanel">
                     <MadeFast/>
                 </TabPanel>
 
-                <TabPanel>
+                <TabPanel className="TabPanel">
                    <MadeDelicious/>
                 </TabPanel>
 
-                <TabPanel>
+                <TabPanel className="TabPanel">
                    <MadeSmart/>
                 </TabPanel>
 

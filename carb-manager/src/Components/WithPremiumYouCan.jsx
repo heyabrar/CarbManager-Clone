@@ -13,7 +13,7 @@ export default function WithPremiumYouCan( ){
         <div className="WithPremiumYouCanHeadline">
             <h1>With Premium You Can</h1>
         </div>
-        <SimpleGrid columns={[2,2,4]} className='PremiumSimpleGrid' spacing={'20px'}>
+        <SimpleGrid columns={[1,1,4]} className='PremiumSimpleGrid' spacing={'20px'}>
            <Stack   className="PremiumStack"> <List><ListIcon as={FaShoppingBasket} fontSize='40px' color={'#2dd29a'}/><p className="WPYC-Header">Generate</p> <p className="WPYC-Content">Personalized meal plans and shopping lists</p></List></Stack>
            <Stack   className="PremiumStack"> <List><ListIcon as={ImSpoonKnife} fontSize='40px' color={'red'}/><p className="WPYC-Header">Unlock</p> <p className="WPYC-Content">State-of-the-art food logging features</p></List></Stack>
            <Stack   className="PremiumStack"> <List><ListIcon as={SiCodechef} fontSize='40px' color={'brown'}/><p className="WPYC-Header">Implement</p> <p className="WPYC-Content">Carb Cycling by customizing your daily goals</p></List></Stack>

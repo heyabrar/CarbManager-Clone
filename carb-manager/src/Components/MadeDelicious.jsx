@@ -3,7 +3,7 @@ import {BsTrophy} from 'react-icons/bs'
 export default function MadeSmart( ){
     return (
         <>
-        <SimpleGrid columns={[1,2,2]} className='MadeSimpleSimpleGrid'>
+        <div className='MadeSimpleSimpleGridFlip'>
          <Stack className="MadeSimpleStack">
              <h1 className="MadeH1">Keto made <b>delicious</b><b style={{color:'#2dd29a'}}>.</b></h1>
              <p className="MadeContent">In addition to using Carb Manager’s 50,000+ low-carb recipe database, Premium members get to:</p>
@@ -17,7 +17,7 @@ export default function MadeSmart( ){
          <Stack className="MadeSimpleStack">
              <Image  className="MadeSimpleImage" src='https://images.prismic.io/cm-website/e44f824e-dc34-4d14-b9c7-dbc3aea5bece_screen-4%402x.png?auto=compress%2Cformat&w=0.5&auto=format&fit=max'/>
          </Stack>
-        </SimpleGrid>
+        </div>
          </>
     )
 }

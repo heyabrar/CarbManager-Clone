@@ -14,9 +14,9 @@ export default function MadeFast( ){
              <h1 className="MadeH1">Keto made <b>fast</b><b style={{color:'#2dd29a'}}>.</b></h1>
              <p className="MadeContent">Taking too long to search for a food? Save time with our state-of-the-art food logging features.</p>
              <List spacing={3}>
-                 <ListItem className="MadeList"><ListIcon as={MdAddAPhoto} color='green.500' fontSize={'18px'}/>Photo Recognition <p>Our popular Snap Foods feature uses photo recognition, so it’s literally a snap.</p> </ListItem>
-                 <ListItem className="MadeList"><ListIcon as={RiBarcodeFill} color='green.500' fontSize={'18px'} />Barcode Scanner <p>Scan the barcode of almost any food to find macros and micros in seconds.</p></ListItem>
-                 <ListItem className="MadeList"><ListIcon as={MdOutlineKeyboardVoice} color='green.500' fontSize={'18px'}/>Voice Log <p>Just say it using our voice-logging feature to keep track of carbs and exercises on the go.</p></ListItem>
+                 <ListItem className="MadeList"><ListIcon as={MdAddAPhoto} color='green.500' fontSize={'18px'}/> <b>Photo Recognition </b><p style={{marginLeft:'30px'}}>Our popular Snap Foods feature uses photo recognition, so it’s literally a snap.</p> </ListItem>
+                 <ListItem className="MadeList"><ListIcon as={RiBarcodeFill} color='green.500' fontSize={'18px'} /> <b>Barcode Scanner </b><p style={{marginLeft:'30px'}}>Scan the barcode of almost any food to find macros and micros in seconds.</p></ListItem>
+                 <ListItem className="MadeList"><ListIcon as={MdOutlineKeyboardVoice} color='green.500' fontSize={'18px'}/><b>Voice Log </b><p style={{marginLeft:'30px'}}>Just say it using our voice-logging feature to keep track of carbs and exercises on the go.</p></ListItem>
              </List>
          </Stack>
         </SimpleGrid>

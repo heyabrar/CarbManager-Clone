@@ -24,13 +24,13 @@ export default function Footer( ){
         </SimpleGrid>
 
         <SimpleGrid columns={[1,1,7]} className='FooterSimpleGrid2'>
-            <Text>Gift Cards</Text>
-            <Text>Suppot Center</Text>
-            <Text>Forums</Text>
-            <Text>Terms of Service</Text>
-            <Text>Privacy Policy</Text>
-            <Text>Contact</Text>
-            <Text>System Status</Text>
+            <p>Gift Cards</p>
+            <p>Suppot Center</p>
+            <p>Forums</p>
+            <p>Terms of Service</p>
+            <p>Privacy Policy</p>
+            <p>Contact</p>
+            <p>System Status</p>
         </SimpleGrid>
         </SimpleGrid>
 
