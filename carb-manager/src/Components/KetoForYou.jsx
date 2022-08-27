@@ -5,7 +5,7 @@ export default function KetoForYou( ){
     return (
        <>
        <div className="KetoOutterDiv">
-        <div>
+        <div >
             <img className="KetoForYouImage" src="https://images.prismic.io/cm-website/030dabe6-7bc1-4df7-953f-4ddf8c3f7a97_article-1%402x.png?auto=compress%2Cformat&w=0.5&auto=format&fit=max" alt="KetoForYouImage" />
         </div>
 

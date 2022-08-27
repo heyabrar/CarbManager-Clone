@@ -4,8 +4,8 @@ import {MdRadioButtonChecked} from 'react-icons/md'
 export default function GetBonus ( ){
     return (
         <>
-         <Box className="TheUltimateKeto">
-            <h1 style={{fontSize:'40px', lineHeight:'50px'}}><b style={{color:'#2dd29a'}}>Get Bonuses</b> for ordering the Carb Manager Ultimate Keto Cookbook</h1>
+         <Box className="BonusHeadline">
+            <h1><b style={{color:'#2dd29a'}}>Get Bonuses</b> for ordering the Carb Manager Ultimate Keto Cookbook</h1>
         </Box>
         <SimpleGrid columns={[1,1,2]} className='GetBonusSimpleGrid'>
             <Box className="GetBonusBox">

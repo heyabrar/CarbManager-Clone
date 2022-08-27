@@ -4,7 +4,7 @@ import {MdCheckCircleOutline } from "react-icons/md";
 export default function KetoForBeyond( ){
     return (
        <>
-       <div className="KetoOutterDiv">
+       <div className="KetoOutterDivFlipColumn">
         <div>
             <h1 className="KFB-H1">Keto <b>beyond<b style={{color : '#2dd29a'}}>.</b></b></h1>
             <p  className="KFB-Content">We go way beyond the typical low-carb tracker to make sure you’re at your best. With Carb Manager, you can easily track your:</p>
