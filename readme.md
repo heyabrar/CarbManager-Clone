@@ -1,6 +1,6 @@
 # REACT 101 Construct Week Project
 
-# Carb Manager 
+## Carb Manager 
 
 In this project i represent you the clone of [www.carbmanager.com](https://www.carbmanager.com/)
 
@@ -14,8 +14,10 @@ I build this project using `React` with fully-featured client and server-side ro
 
  As it is an individual project i couldn't cover the enitire web clone due to time management. 
 
- But i have cloned 3 pages of it which you can go through, I have given my best effort to make it look realistic as it is. 
+ But i have cloned 3 pages of it which you can go through, I have given my best effort to make it look realistic as it is. It took me 5 Days to complete the task.
 
  This project is responsive to all the sceen size's as well. 
 
  I had a great experience while working on this project. I got to explore a lot more things in React. 
+
+ ## Here is the [DiployedLink](https://venerable-maamoul-70f361.netlify.app/)
