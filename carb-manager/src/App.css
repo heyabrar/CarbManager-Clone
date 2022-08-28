@@ -586,9 +586,9 @@
 }
 
 .EasiestWayToLooseWait{
-    font-size: 22px;
+    font-size: 20px;
     line-height: 25px;
-    margin-left: 40px;
+    margin-left: 40px;  
 }
 
 .TheOfficaialCompanion{
@@ -599,10 +599,11 @@
 
 .CookBookButtonsBox{
     margin-left: 40px;
-    width: 55%;
+    width: 60%;
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    gap: 20px;
 }
 
 .CookBookButtonsBox>button{
@@ -868,22 +869,18 @@
         /* border: 1px solid black; */
         font-size: 14px;
         gap: 10px;
+        width: 60%;
     }
 
     .LogInDiv{
         /* border: 2px solid green; */
         font-size: 12px;
-        width: 25%;
+        width: 15%;
         gap: 0px;
     }
 
-    .LogInDiv>p{
-        width:55px;
-        margin-left: 25px;
-        font-size: 14px;
-    }
     .SignUpButton{
-        padding: 0px;
+        padding: 3px;
         font-size: 12px;
         border-radius: 10px;
     }
