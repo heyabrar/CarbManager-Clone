@@ -1,5 +1,4 @@
 .NavOutterDiv{
-    /* border: 1px solid red; */
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -13,14 +12,12 @@
 }
 
 .logoDiv{
-    /* border: 1px solid green; */
     display: flex;
     align-items: center;
     font-weight: 600;
 }
 
 .NavInnerDiv{
-    /* border: 1px solid black; */
     width: 40%;
     justify-content: space-around;
     display: flex;
@@ -32,7 +29,6 @@
 }
 
 .LogInDiv{
-    /* border: 1px dashed blue; */
     display:flex ;
     align-items: center ;
     gap: 30px;
@@ -48,13 +44,11 @@
 }
 
 .Features-Banner-Outter-Div{
-    /* border: 2px solid black; */
     background-color: #2dd29a;
     border-bottom-left-radius: 300px;
 }
 
 .Keto-Headline-Div{
-    /* border: 1px solid red; */
     width: 80%;
     margin-left: 15%;
     margin-top: 15%;
@@ -107,9 +101,8 @@
 }
 
 .MobileDiv{
-    /* border: 1px solid blue; */
     margin-left: 10%;
-    margin-top: 10%;
+    margin-top: 13%;
 }
 
 .MobileScreenBanner{
@@ -117,7 +110,6 @@
 }
 
 .GoogleAppleStore{
-    /* border: 1px solid black; */
     display: flex;
     margin-top: 5%;
     width: 50%;
@@ -129,7 +121,6 @@
 }
 
 .SponsorsDiv{
-    /* border: 1px solid black; */
     width: 90%;
     margin-left: 10%;
     margin: auto;
@@ -141,7 +132,6 @@
 }
 
 .GetToKnowDiv{
-    /* border: 1px solid red; */
     width: 40%;
     margin-left: 15%;
     margin-top: 5%;
@@ -158,7 +148,6 @@
 }
 
 .KetoOutterDiv{
-    /* border: 2px solid red; */
     display: grid;
     grid-template-columns: repeat(2,1fr);
     width: 80%;
@@ -167,13 +156,11 @@
 }
 
 .KetoOutterDiv>div{
-    /* border: 3px solid black; */
     width: 80%;
     margin: auto;
 }
 
 .KetoOutterDivFlipColumn{
-    /* border: 2px solid red; */
     display: grid;
     grid-template-columns: repeat(2,1fr);
     width: 80%;
@@ -182,7 +169,6 @@
 }
 
 .KetoOutterDivFlipColumn>div{
-    /* border: 3px solid black; */
     width: 80%;
     margin: auto;
 }
@@ -192,14 +178,12 @@
 }
 
 .KFE-Content, .KFU-Content, .KFL-Content,.KFB-Content{
-    /* border: 1px solid black; */
     width: 95%;
     margin-top: 10px;
     line-height: 30px;
 }
 
 .KFU-List,.KFE-List,.KFL-List,.KFB-List{
-    /* border: 1px solid red; */
     margin-top: 10px;
     gap: 13px;
 }
@@ -237,7 +221,6 @@
 }
 
 .GetToKnowHeadLineDiv{
-    /* border: 1px solid black; */
     width: 40%;
     margin: auto;
     margin-top: 5%;
@@ -254,7 +237,6 @@
 }
 
 .threebytwo{
-    /* border: 1px solid black; */
     width: 80%;
     margin: auto;
     margin-top: 5%;
@@ -265,7 +247,6 @@
     height: 300px;
     width: 80%;
     margin: auto;
-    /* border: 1px solid red; */
 }
 
 
@@ -297,7 +278,6 @@
 }
 
 .CarbManagerByNumbersDiv{
-    /* border: 1px solid black; */
     width: 40%;
     margin: auto;
     margin-top: 7%;
@@ -310,13 +290,11 @@
 }
 
 .CarbManagerByNumbersDiv>p{
-    /* border: 1px solid red; */
     width: 80%;
     margin: auto;
 }
 
 .CrabManagerByNumberSimpleGrid{
-    /* border: 1px solid black; */
     width: 80%;
     margin: auto;
     margin-top: 5%;
@@ -330,12 +308,10 @@
 
 .FollowersContent{
     width: 80%;
-    /* border: 1px solid red; */
     margin: auto;
 }
 
 .FooterlogoDiv{
-    /* border: 1px solid green; */
     display: flex;
     align-items: center;
     font-weight: 600;
@@ -349,7 +325,6 @@
 }
 
 .FooterSimpleGrid1{
-    /* border: 1px solid black; */
     width: 70%;
     margin: auto;
     margin-top: 3%;
@@ -358,7 +333,6 @@
 }
 
 .FooterSimpleGrid2{
-    /* border: 1px solid red; */
     width: 55%;
     margin: auto;
     text-align: center;
@@ -368,7 +342,6 @@
 }
 
 .FooterSimpleGrid3{
-    /* border: 1px solid black; */
     width: 20%;
     margin: auto;
     text-align: center;
@@ -398,14 +371,12 @@
 }
 
 .FooterStack1{
-    /* border: 1px solid red; */
     text-align: center;
     font-size: 14px;
     margin-top: 2%;
 }
 
 .FooterStack{
-    /* border: 1px solid black; */
     width: 60%;
     margin: auto;
     text-align: center;
@@ -427,12 +398,10 @@
     font-size: 25px;
 }
 .dummy{
-    /* border: 2px solid black; */
     height: 100px;
 }
 
 .PremuimBannerDiv{
-    /* border: 1px solid red; */
     width: 85%;
     margin: auto;
 }
@@ -443,7 +412,6 @@
 }
 
 .PremuimBannerDiv>div{
-    /* border: 1px solid greenyellow; */
     margin: auto;
 }
 
@@ -473,7 +441,6 @@
 }
 
 .WithPremiumYouCanHeadline,.PremiumFeaturesHeader{
-    /* border: 1px solid black; */
     font-size: 40px;
     font-weight: 700;
     width: 38%;
@@ -483,7 +450,6 @@
 }
 
 .PremiumSimpleGrid{
-    /* border: 1px solid red; */
     text-align: center;
     width: 80%;
     margin: auto;
@@ -491,7 +457,6 @@
 }
 
 .PremiumStack{
-    /* border: 1px solid red; */
     margin-top: 40px;
 }
 
@@ -501,7 +466,6 @@
 }
 
 .WPYC-Content{
-    /* border: 1px solid black; */
     width: 80%;
     margin: auto;
     margin-top: 10px;
@@ -514,7 +478,6 @@
 }
 
 .Tabs{
-    /* border: 1px solid red; */
     width: 80%;
     margin: auto;
     margin-top: 5%;
@@ -541,7 +504,6 @@
 
 .MadeSimpleStack{
     margin: auto;
-    /* border: 1px solid red; */
 }
 
 .MadeH1{
@@ -558,19 +520,16 @@
 }
 
 .CookBookDummy{
-    /* border: 2px solid black; */
     height: 80px;
 }
 
 .CookBookBannerDiv{
-    /* border: 5px solid red; */
     width: 90%;
     margin: auto;
     margin-top: 2%;
 }
 
 .CookBookBannerDiv>div{
-    /* border: 2px solid green; */
     width: 80%;
     margin: auto;
 }
@@ -611,7 +570,6 @@
 }
 
 .TheUltimateKeto{
-    /* border: 1px solid black; */
     width: 45%;
     margin: auto;
     text-align: center;
@@ -631,7 +589,6 @@
 }
 
 .BonusHeadline{
-    /* border: 1px solid black; */
     width: 45%;
     margin: auto;
     text-align: center;
@@ -651,7 +608,6 @@
 }
 
 .KetoMadeEasySimpleGrid, .YouWontMissSimpleGrid, .RecipesForFamilySimpleGrid, .WhoKnewSimpleGrid{
-    /* border: 1px solid black; */
     width: 70%;
     margin: auto;
     margin-top: 5%;
@@ -664,11 +620,9 @@
     margin-top: 5%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    /* border: 1px solid black; */
 }
 
 .KetoMadeEasyBox, .YouWontMissBox, .RecipesForFamilyBox, .WhoKnewBox{
-    /* border: 1px solid red; */
     width: 90%;
     margin: auto;
 }
@@ -712,14 +666,12 @@
 }
 
 .KetoDietSimpleGrid{
-    /* border: 1px solid black; */
     width: 80%;
     margin: auto;
     margin-top: 7%;
 }
 
 .KetoDietBox{
-    /* border: 1px solid red; */
     width: 90%;
     margin: auto;
     text-align: center;
@@ -743,7 +695,6 @@
 }
 
 .ButtonsBox{
-    /* border: 1px solid black; */
     width: 70%;
     justify-content: space-between;
     display: flex;
@@ -756,26 +707,22 @@
 }
 
 .RecipesOutterSimpleGrid{
-    /* border: 2px solid red; */
     width: 80%;
     margin: auto;
     margin-top: 5%;
 }
 
 .RecipesOutterBox{
-    /* border: 2px solid blue; */
     margin: auto;
     margin-top: 5%;
 }
 
 .RecipesInnerSimpleGrid{
-    /* border: 5px solid greenyellow; */
     width: 90%;
     margin: auto;
 }
 
 .RecipesInnerBox{
-    /* border: 2px solid brown; */
     margin: auto;
 }
 
@@ -801,14 +748,12 @@
 }
 
 .GetBonusSimpleGrid{
-    /* border: 1px solid black; */
     width: 80%;
     margin: auto;
     margin-top: 5%;
 }
 
 .GetBonusBox{
-    /* border: 1px solid green; */
     width: 90%;
     margin: auto;
 }
@@ -824,14 +769,12 @@
 }
 
 .CQAccordion{
-    /* border: 1px solid black; */
     width: 60%;
     margin: auto;
     margin-top: 3%;
 }
 
 .CQBox{
-    /* border: 1px solid red; */
     height: 50px;
     align-items: center;
     display: flex;
@@ -840,7 +783,6 @@
 }
 
 .QuestionsDiv{
-    /* border: 1px solid red; */
     width: 40%;
     margin: auto;
     text-align: center;
@@ -855,7 +797,6 @@
 @media  (max-width: 878px){
 
     .logoDiv{
-        /* border: 1px solid red; */
         font-size: 12px;
         width: 130px;
         font-weight: 400;
@@ -866,14 +807,12 @@
     }
 
     .NavInnerDiv{
-        /* border: 1px solid black; */
         font-size: 14px;
         gap: 10px;
         width: 60%;
     }
 
     .LogInDiv{
-        /* border: 2px solid green; */
         font-size: 12px;
         width: 15%;
         gap: 0px;
@@ -938,12 +877,10 @@
    }
 
    .SponsorsImg{
-    /* border: 1px solid red; */
     width: 100px;
    }
 
    .GetToKnowDiv{
-    /* border: 1px solid red; */
     width: 80%;
     text-align: center;
    }
@@ -983,7 +920,6 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column-reverse;
-    /* border: 1px solid red; */
 }
 
    .KetoForYouImage, .KetoForLifeImage{
@@ -1051,7 +987,6 @@ margin-left: 7px;
 }
 
 .OutterFooter{
-    /* border: 1px solid red; */
     width: 90%;
     margin: auto;
 }
@@ -1096,7 +1031,6 @@ margin-left: 7px;
 }
 
 .PremiumBannerContent>h1{
-    /* border: 1px solid red; */
     font-size: 38px;
     line-height: 48px;
     margin-top: 10px;
@@ -1116,7 +1050,6 @@ margin-left: 7px;
 }
 
 .WithPremiumYouCanHeadline,.PremiumFeaturesHeader{
-    /* border: 1px solid black; */
     width: 90%;
     font-size: 30px;
 }
@@ -1127,8 +1060,7 @@ margin-left: 7px;
 }
 
 .TabList{
-    /* overflow-x: scroll;
-    overflow-y: hidden; */
+    overflow-y: hidden; 
     overflow: auto;
     white-space: nowrap;
     gap: 20px;
@@ -1332,7 +1264,6 @@ margin-left: 7px;
 }
 
 .BonusHeadline{
-    /* border: 1px solid red; */
     width: 90%;
 }
 
