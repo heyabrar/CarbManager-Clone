@@ -4,20 +4,32 @@
 
 In this project i represent you the clone of [www.carbmanager.com](https://www.carbmanager.com/)
 
+
+ ## Here is the [DiployedLink](https://venerable-maamoul-70f361.netlify.app/)
+
 # What is Carb Management ? 
 
 Carb Manager integrates seamlessly with FitBit, Garmin, and hundreds of other apps and devices via Apple Health and Google Fit, helping you to: Lose weight quickly. Reduce inflammation. Optimize energy. Gain mental clarity. 
 
-This was the website i was assigned to build in the project week. It is an `individual project` build by myself.
 
-I build this project using `React` with fully-featured client and server-side routing library known as `React-Router-Dom`. I have also used `Chakra UI` and `React-icons` to give a good User Interface all over. 
+## Landing Page 
 
- As it is an individual project i couldn't cover the enitire web clone due to time management. 
+![image](https://user-images.githubusercontent.com/103938174/196890477-1496b7e4-3828-4805-8d26-ef15be96b67c.png)
 
- But i have cloned 3 pages of it which you can go through, I have given my best effort to make it look realistic as it is. It took me 5 Days to complete the task.
 
- This project is responsive to all the sceen size's as well. 
+## Premium Page 
+![image](https://user-images.githubusercontent.com/103938174/196890613-7350b82f-4203-4736-9c12-d1c1778fbb1d.png)
 
- I had a great experience while working on this project. I got to explore a lot more things in React. 
 
- ## Here is the [DiployedLink](https://venerable-maamoul-70f361.netlify.app/)
+## CookBook Page 
+![image](https://user-images.githubusercontent.com/103938174/196890839-79864a57-ea1a-436c-af43-91011085f7ba.png)
+
+
+## Tech Stack
+- **React**
+- **Chakra UI**
+- **React Router DOM**
+- **JavaScript**
+- **React Icons**
+- **axios**
+A Solo project buit by me, executed in 4 Days.
